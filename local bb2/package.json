@@ -1,0 +1,34 @@
+{
+  "name": "local-bb2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "trung nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.867.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-redis": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.22.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwa": "^2.0.0",
+    "lodash": "^4.17.21",
+    "momen": "0.0.1-security",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.5.0",
+    "nodemon": "^2.0.7",
+    "pg": "^8.5.1",
+    "redis": "^3.0.2",
+    "tslint": "^6.1.3",
+    "wkhtmltopdf": "^0.3.4"
+  }
+}

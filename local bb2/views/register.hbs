@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Daily</title>
+
+
+  <!--  Bootstrap css file  -->
+  <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!--  font awesome icons  -->
+  <!-- <link rel="stylesheet" href="./css/all.min.css"> -->
+  <link rel="stylesheet" href="css/all.min.css">
+
+
+  <!--  Magnific Popup css file  -->
+  <!--  <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css"> -->
+  <link rel="stylesheet" href="vendorn/Magnific-Popup/dist/jquery.magnific-popup.js">
+
+
+  <!--  Owl-carousel css file  -->
+  <!-- <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css"> -->
+  <link rel="stylesheet" href="vendorn/owl-carousel/css/owl.carousel.min.css">
+  <!-- <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css"> -->
+  <link rel="stylesheet" href="vendorn/owl-carousel/css/owl.theme.default.min.css">
+
+
+  <!--  custom css file  -->
+  <!-- <link rel="stylesheet" href="./css/style.css"> -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--  Responsive css file  -->
+  <!-- <link rel="stylesheet" href="./css/responsive.css"> -->
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <header class="header_area">
+    <div class="main-menu">
+      <nav class="navbar navbar-expand-lg navbar-light">.
+        <a class="navbar-brand" href=""><img src="img/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mr-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login">Login</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="card shadow">
+  <h5 class="card-header">
+    Account Register
+  </h5>
+  <div class="card-body">
+    <form id="registerForm" novalidate method="POST">
+      <h5 class="mb-3">Account</h5>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="username">Email</label>
+          <input type="text" class="form-control" id="username" name="email" placeholder="you@example.com" required
+            autofocus>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" name="password" required pattern="^\S{6,}$">
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="confirm">Confirm</label>
+          <input type="password" class="form-control" name="confirm" required>
+        </div>
+      </div>
+
+      <hr class="mb-4">
+      <h5 class="mb-3">Your Information</h5>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="fullName">Full name</label>
+          <input type="text" class="form-control" name="username" placeholder="" value="" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="fullName">Phone numbers</label>
+          <input type="text" class="form-control" name="phone_numbers" placeholder="" value="" required>
+        </div>
+      </div>
+      <span style="color:  red;">{{message}}</span>
+      <hr class="mb-4">
+      
+      <button class="btn btn-primary" type="submit">Continue to register</button>
+    </form>
+
+  </div>
+</div>
+  <footer class="footer-area">
+    <div class="container">
+      <div class="">
+        <div class="site-logo text-center py-4">
+          <a href="#"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <div class="social text-center">
+          <h5 class="text-uppercase">Follow Us</h5>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery.3.4.1.js"></script>
+
+  <!--  Bootstrap js file  -->
+  <!-- <script src="./js/bootstrap.min.js"></script> -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!--  isotope js library  -->
+  <!-- <script src="./vendor/isotope/isotope.min.js"></script> -->
+  <script src="/public/vendor/isotope/isotope.min.js"></script>
+
+  <!--  Magnific popup script file  -->
+  <script src="vendorn/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+  <!-- <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script> -->
+
+  <!--  Owl-carousel js file  -->
+  <!--  <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script> -->
+  <script src="vendorn/owl-carousel/js/owl.carousel.min.js"></script>
+
+  <!--  custom js file  -->
+  <!-- <script src="./js/main.js"></script> -->
+  <script src="js/main.js"></script>
+
+</body>
